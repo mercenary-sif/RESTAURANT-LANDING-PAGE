@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Harmattan:wght@400;500;600;700&family=Jomhuria&family=Katibeh&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Scheherazade+New:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> restaurant Restaurant</title>
+</head>
+<body>
+    <nav>
+       <ul class="Restaurant__sidebar scale-up-center">
+        <li onclick=hideSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="25px" fill="#dfd6d0"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Reservation</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact us</a></li>
+       </ul>
+       <ul>
+        <li><a href="#">MRestaurant</a></li>
+        <li  class="hideOnemobile"><a href="#">Home</a></li>
+        <li class="hideOnemobile"><a href="#">Menu</a></li>
+        <li class="hideOnemobile"><a href="#">Reservation</a></li>
+        <li class="hideOnemobile"><a href="#">Gallery</a></li>
+        <li class="hideOnemobile"><a href="#">Contact us</a></li>
+        <li class="menu-bottun" onclick=showSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="25px" fill="#dfd6d0"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+       </ul>
+    </nav>
+    <header>
+        <div class="restaurant__header-cover">
+            <img src="/images/R2.jpg" alt="cover">
+        </div>
+        <div class="restaurant__header-contect">
+            <h1> Good Food , great vibes</h1>
+            <p> Lorem ipsum dolor sit amet , consectetur adispiscing elit. Sapien justo , purus
+                habitant vestibulum vivamus tristique , Que mi send nulla non felis  </p>
+                <button type='button' >
+                    Book A Table </button>
+        </div>
+    </header>
+    <div class="restaurant__menu  section__margin">
+            <div class="restaurant__menu-plats">
+                 <div class="restaurant__menu-plats_groupA">
+                     <img src="images/plat 1.jpg" alt="plat 1">
+                     <img src="images/plat 2.jpg" alt="plat 2">
+                 </div>
+                 <div class="restaurant__menu-plats_groupB">
+                    <img src="images/plat 3.jpg" alt="plat 3">
+                    <img src="images/plat 4.jpg" alt="plat 4">
+                 </div>
+            </div>
+            <div class="restaurant__menu-content">
+                <h1> Our Story</h1>
+                <p> Lorem ipsum dolor sit amet , consectetur adispiscing elit. Massa nunc , risus euismod
+                    orci venenatis , ut metus justo placerat. Sed feugiat facilisis egestas viverra suspendisse. 
+                    Ultrice ipsum turpis nisl volupat elit vitace. Et in phasellus est, viverra dictum.   </p>
+                <h4>More About us</h4>    
+
+                </div>
+    </div>
+    <div class="restaurant__specialday  section__pedding">
+        <div class="restaurant__specialday-header">
+            <h1>Today's Special</h1>
+            <p>Lorem ipsum dolor sit amet , consectetur adispiscing elit.</p>
+        </div>
+        <div class="restaurant__specialday-container">
+            <div class="restaurant__specialday-container_card">
+                <div class="restaurant__specialday-container_card-cover">
+                    <img src="/images/Special 1.jpg" alt="cover">
+                </div>
+                <div class="restaurant__specialday-container_card-content">
+                    <h2>French toast with Maple syrup</h2>
+                    <div class="restaurant__specialday-container_card-content_time">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#d8cfc9"><path d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/> </svg>
+                        <p>10 min</p>
+                    </div>
+                    <div class="restaurant__specialday-container_card-content_rate">
+                        <img src="/images/4.5 stars.png" alt="rate">
+                        <h4> Order Now </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="restaurant__specialday-container_card">
+                <div class="restaurant__specialday-container_card-cover">
+                    <img src="/images/Special 2.jpg" alt="cover">
+                </div>
+                <div class="restaurant__specialday-container_card-content">
+                    <h2>French toast with Maple syrup</h2>
+                    <div class="restaurant__specialday-container_card-content_time">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#d8cfc9"><path d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/> </svg>
+                        <p>10 min</p>
+                    </div>
+                    <div class="restaurant__specialday-container_card-content_rate">
+                        <img src="/images/4 stars.png" alt="rate">
+                        <h4> Order Now </h4>
+                    </div>
+                </div>
+            </div>
+            <div  class="restaurant__specialday-container_card">
+                <div class="restaurant__specialday-container_card-cover">
+                    <img src="/images/Special 3.jpg" alt="cover">
+                </div>
+                <div class="restaurant__specialday-container_card-content">
+                    <h2>French toast with Maple syrup</h2>
+                    <div class="restaurant__specialday-container_card-content_time">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#d8cfc9"><path d="m612-292 56-56-148-148v-184h-80v216l172 172ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z"/> </svg>
+                        <p>10 min</p>
+                    </div>
+                    <div class="restaurant__specialday-container_card-content_rate">
+                        <img src="/images/5 stars.png" alt="rate">
+                        <h4> Order Now </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="restaurant__familywing  section__pedding">
+        <div class="restaurant__familywing-cover">
+            <img src="/images/R1.jpg" alt="family wing cover">
+        </div>
+        <div class="restaurant__familywing-content">
+            <h1>Family Wing</h1>
+            <h2>Book your private family table</h2>
+            <p> Lorem ipsum dolor sit amet , consectetur adispiscing elit. Massa nunc , risus euismod
+                orci venenatis , ut metus justo placerat. Sed feugiat facilisis egestas viverra suspendisse. 
+           </p>
+                <button type='button' >
+                    Book A Table </button>
+        </div>
+    </div>
+    <div class="restaurant__clientreviews">
+        <div class="restaurant__clientreviews-header">
+            <h1>What people are saying about us</h1>
+        </div>
+        <div class="restaurant__clientreviews-slide">
+            <div class="restaurant__clientreviews-container">
+                <div class="restaurant__clientreviews-container_cover">
+                    <img src="/images/plat 7.jpg" alt="clientreviews-cover">
+                </div>
+                <div class="restaurant__clientreviews-container_content">
+                    <img src="/images/profilepic 1.jpg" alt="profile-pic">
+                    <p>Lorem ipsum dolor sit amet , consectetur adispiscing elit. Massa nunc , risus euismod
+                        orci venenatis , ut metus justo placerat. Sed feugiat facilisis egestas viverra suspendisse.</p>
+                </div>
+            </div>
+            <div class="restaurant__clientreviews-container">
+                <div class="restaurant__clientreviews-container_cover">
+                    <img src="/images/plat 8.jpg" alt="clientreviews-cover">
+                </div>
+                <div class="restaurant__clientreviews-container_content">
+                    <img src="/images/profilepic 2.jpg" alt="profile-pic">
+                    <p>Lorem ipsum dolor sit amet , consectetur adispiscing elit. Massa nunc , risus euismod
+                        orci venenatis , ut metus justo placerat. Sed feugiat facilisis egestas viverra suspendisse.</p>
+                    </div>
+                </div>
+                
+                <div class="restaurant__clientreviews-container">
+                    <div class="restaurant__clientreviews-container_cover">
+                        <img src="/images/plat 16.jpg" alt="clientreviews-cover">
+                    </div>
+                    <div class="restaurant__clientreviews-container_content">
+                        <img src="/images/profilepic 3.jpg" alt="profile-pic">
+                        <p>Lorem ipsum dolor sit amet , consectetur adispiscing elit. Massa nunc , risus euismod
+                            orci venenatis , ut metus justo placerat. Sed feugiat facilisis egestas viverra suspendisse.</p>
+                        </div>
+                    </div>
+                    <div class="restaurant__clientreviews-buttons">
+                         <img src="/images/prev.png" alt="prev"  onclick="nextReview(-1)" >
+                         <img src="/images/Right arrow.png" alt="next" onclick="nextReview(1)">
+                    </div>
+                    <div class="restaurant__clientreviews-dots">
+                        <span class="restaurant__clientreviews-dots_dot" onclick=currentSlide(1) ></span>
+                        <span class="restaurant__clientreviews-dots_dot" onclick=currentSlide(2) ></span>
+                        <span class="restaurant__clientreviews-dots_dot" onclick=currentSlide(3) ></span>
+                    </div>
+                </div>
+            
+            
+            
+    </div>
+    <div class="restaurant__ourchef section__pedding">
+           <div class="restaurant__ourchef-header">
+            <h1> Our Chefs </h1>
+            <p> Lorem ipsum dolor sit amet , consectetur adispiscing elit.  </p>
+           </div>
+           <div class="restaurant__ourchef-container">
+            <div class="restaurant__ourchef-container_card">
+                <div class="restaurant__ourchef-container_card-cover">
+                    <img src="/images/Chef 1.jpeg" alt="chef1-pic">
+                </div>
+                <div class="restaurant__ourchef-container_card-content">
+                    
+                    <h3>Albert C Miler</h3>
+                    <h4>Station chef</h4>
+                </div>
+            </div>
+            <div class="restaurant__ourchef-container_card">
+                <div class="restaurant__ourchef-container_card-cover">
+                    <img src="/images/Chef 3.jpeg" alt="chef2-pic">
+                </div>
+                <div class="restaurant__ourchef-container_card-content">
+
+                    <h3>Albert C Miler</h3>
+                    <h4>Head chef</h4>
+                </div>
+            </div>
+            <div class="restaurant__ourchef-container_card">
+                <div class="restaurant__ourchef-container_card-cover">
+                    <img src="/images/Chef 2.jpeg" alt="chef3-pic">
+                </div>
+                <div class="restaurant__ourchef-container_card-content">
+                    
+                    <h3>Albert C Miler</h3>
+                    <h4>Pastry chef</h4>
+                </div>
+            </div>
+           </div>
+    </div>
+    <div class="restaurant__gallery section__pedding">
+        <div class="restaurant__gallery-header">
+         <h1> Gallery </h1>
+         <p> Lorem ipsum dolor sit amet , consectetur adispiscing elit.  </p>
+        </div>
+        <div class="restaurant__gallery-container">
+            <div class="restaurant__gallery-container-plate_A">
+                <img src="/images/plat 7.jpg" alt="plat 14">
+
+            </div>
+            <div class="restaurant__gallery-container-plate_B_C">
+                <img src="/images/plat 16.jpg" alt="plat 17">
+                <img src="/images/plat 9.jpg" alt="plat 15">
+            </div>
+            <div class="restaurant__gallery-container-plate_D">
+                <img src="/images/plat 8.jpg" alt="plat 15">
+
+            </div>
+        </div>
+    </div>
+    <Footer class='section__pedding'>
+        <div class="restaurant__footer-links">
+            <div class="restaurant__footer-links_logo">
+                <h2 >MRestaurant</h2>
+                </div>
+            <div class="restaurant__footer-links_logo_div">
+                <h4>Social Media</h4>
+                <p>Facebook</p>
+                <p>Instgram</p>
+                <p>X</p>
+          </div>
+          <div class="restaurant__footer-links_logo_div">
+                <h4>Home</h4>
+                <p>Menu</p>
+                <p>Reservation</p>
+                <p>Gallery</p>
+          </div>
+          <div class="restaurant__footer-links_logo_div">
+                <h4> Contact Us</h4>
+                <p>Be the first to get our newsletter</p>
+                <div class="restaurant__footer-Contactus_input">
+                    <input type='email' placeholder='Your adress @email ...'/>
+                    <button type='button'>Subscribe</button>
+                </div>
+            </div>
+        </div>
+    
+          <div class="restaurant__footer-copyright">
+            <p>© 2024 restaurant Anime codding by The restaurant Sif Eddine Aguaguena. All rights reserved.</p>
+          </div>
+                  
+              
+          
+    </Footer>
+  <script>
+    var review = 1;
+    displayReview(review);
+
+    function showSidebar(){
+        const sidebar = document.querySelector('.Restaurant__sidebar');
+        sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+        const sidebar = document.querySelector('.Restaurant__sidebar');
+        sidebar.style.display = 'none'
+    }
+
+    function displayReview(r){
+         var i ; 
+         var rv = document.getElementsByClassName("restaurant__clientreviews-container");
+         var dots = document.getElementsByClassName("restaurant__clientreviews-dots_dot");
+      
+        
+         if(r > rv.length){
+            review=1;
+         }
+         if(r < 1){
+            review= rv.length;
+         }
+         for(i=0 ; i < rv.length ; i++){
+            rv[i].style.display ="none"
+         }
+         for (i = 0; i < dots.length; i++) {
+        dots[i].classList.remove("active");
+    }
+         
+         rv[review - 1].style.display = "flex";
+         dots[review - 1].classList.add("active");
+       
+
+    }
+    function nextReview(n){
+        displayReview(review +=n)
+    }
+    function currentSlide(n){
+        displayReview(review = n)
+    }
+   
+    
+  </script>
+</body>
+</html>
